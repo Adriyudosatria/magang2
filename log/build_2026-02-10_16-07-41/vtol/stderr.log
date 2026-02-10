@@ -1,7 +1,0 @@
-[01m[K/home/adri/magang2_ws/src/vtol/src/suscriber.cpp:[m[K In member function ‘[01m[Kvoid DroneSuscriber::topic_callback(const Int32&) const[m[K’:
-[01m[K/home/adri/magang2_ws/src/vtol/src/suscriber.cpp:25:5:[m[K [01;31m[Kerror: [m[Kincrement of member ‘[01m[KDroneSuscriber::event[m[K’ in read-only object
-   25 |     [01;31m[Kevent[m[K++;
-      |     [01;31m[K^~~~~[m[K
-gmake[2]: *** [CMakeFiles/suscriber_node.dir/build.make:76: CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/suscriber_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
