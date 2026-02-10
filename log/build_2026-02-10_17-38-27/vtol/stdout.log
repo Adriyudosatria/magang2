@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target service_node[0m
+[35m[1mConsolidate compiler generated dependencies of target suscriber_node[0m
+[ 33%] Built target publisher_node
+[ 66%] Built target service_node
+[ 83%] [32mBuilding CXX object CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o[0m

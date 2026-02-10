@@ -1,0 +1,2 @@
+Invoking command in '/home/adri/magang2_ws/build/vtol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/build/vtol -- -j4 -l4
+Invoked command in '/home/adri/magang2_ws/build/vtol' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/build/vtol -- -j4 -l4

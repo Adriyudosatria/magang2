@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable publisher_node[0m
+[100%] Built target publisher_node
+-- Install configuration: ""
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/lib/vtol/publisher_node
+-- Set runtime path of "/home/adri/magang2_ws/vtol/install/vtol/lib/vtol/publisher_node" to ""
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/ament_index/resource_index/package_run_dependencies/vtol
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/ament_index/resource_index/parent_prefix_path/vtol
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/environment/ament_prefix_path.sh
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/environment/ament_prefix_path.dsv
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/environment/path.sh
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/environment/path.dsv
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/local_setup.bash
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/local_setup.sh
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/local_setup.zsh
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/local_setup.dsv
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/package.dsv
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/ament_index/resource_index/packages/vtol
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/cmake/vtolConfig.cmake
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/cmake/vtolConfig-version.cmake
+-- Installing: /home/adri/magang2_ws/vtol/install/vtol/share/vtol/package.xml

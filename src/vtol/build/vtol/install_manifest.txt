@@ -1,0 +1,16 @@
+/home/adri/magang2_ws/vtol/install/vtol/lib/vtol/publisher_node
+/home/adri/magang2_ws/vtol/install/vtol/share/ament_index/resource_index/package_run_dependencies/vtol
+/home/adri/magang2_ws/vtol/install/vtol/share/ament_index/resource_index/parent_prefix_path/vtol
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/environment/ament_prefix_path.sh
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/environment/ament_prefix_path.dsv
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/environment/path.sh
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/environment/path.dsv
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/local_setup.bash
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/local_setup.sh
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/local_setup.zsh
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/local_setup.dsv
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/package.dsv
+/home/adri/magang2_ws/vtol/install/vtol/share/ament_index/resource_index/packages/vtol
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/cmake/vtolConfig.cmake
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/cmake/vtolConfig-version.cmake
+/home/adri/magang2_ws/vtol/install/vtol/share/vtol/package.xml

@@ -1,0 +1,28 @@
+[0.025s] Invoking command in '/home/adri/magang2_ws/build/vtol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/build/vtol -- -j4 -l4
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target suscriber_node[0m
+[0.110s] [ 50%] Built target publisher_node
+[0.124s] [ 75%] [32mBuilding CXX object CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o[0m
+[9.017s] [100%] [32m[1mLinking CXX executable suscriber_node[0m
+[9.435s] [100%] Built target suscriber_node
+[9.465s] Invoked command in '/home/adri/magang2_ws/build/vtol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/build/vtol -- -j4 -l4
+[9.481s] Invoking command in '/home/adri/magang2_ws/build/vtol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adri/magang2_ws/build/vtol
+[9.493s] -- Install configuration: ""
+[9.493s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/lib/vtol/publisher_node
+[9.493s] -- Installing: /home/adri/magang2_ws/install/vtol/lib/vtol/suscriber_node
+[9.495s] -- Set runtime path of "/home/adri/magang2_ws/install/vtol/lib/vtol/suscriber_node" to ""
+[9.496s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/ament_index/resource_index/package_run_dependencies/vtol
+[9.496s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/ament_index/resource_index/parent_prefix_path/vtol
+[9.496s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/ament_prefix_path.sh
+[9.496s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/ament_prefix_path.dsv
+[9.496s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/path.sh
+[9.496s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/path.dsv
+[9.496s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.bash
+[9.496s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.sh
+[9.496s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.zsh
+[9.496s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.dsv
+[9.497s] -- Installing: /home/adri/magang2_ws/install/vtol/share/vtol/package.dsv
+[9.497s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/ament_index/resource_index/packages/vtol
+[9.497s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/cmake/vtolConfig.cmake
+[9.497s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/cmake/vtolConfig-version.cmake
+[9.497s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/package.xml
+[9.501s] Invoked command in '/home/adri/magang2_ws/build/vtol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adri/magang2_ws/build/vtol

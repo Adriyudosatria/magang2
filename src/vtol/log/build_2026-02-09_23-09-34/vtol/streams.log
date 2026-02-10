@@ -1,0 +1,55 @@
+[0.033s] Invoking command in '/home/adri/magang2_ws/vtol/build/vtol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/vtol/build/vtol -- -j4 -l4
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[0.179s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[4.157s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:34:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KInt32[m[K’?
+[4.157s]    34 |     rclcpp::Publisher<std_msgs::msg::[01;31m[Kint32[m[K>::SharedPtr publisher_;
+[4.158s]       |                                      [01;31m[K^~~~~[m[K
+[4.158s]       |                                      [32m[KInt32[m[K
+[4.158s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:34:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.158s]    34 |     rclcpp::Publisher<std_msgs::msg::int32[01;31m[K>[m[K::SharedPtr publisher_;
+[4.158s]       |                                           [01;31m[K^[m[K
+[4.158s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:34:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.158s]    34 |     rclcpp::Publisher<std_msgs::msg::int32>::[01;31m[KSharedPtr[m[K publisher_;
+[4.158s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[4.158s]       |                                                       [32m[K;[m[K
+[4.162s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:34:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[4.162s]    34 |     rclcpp::Publisher<std_msgs::msg::int32>::SharedPtr [01;31m[Kpublisher_[m[K;
+[4.162s]       |                                                        [01;31m[K^~~~~~~~~~[m[K
+[4.162s]       |                                                        [32m[Krmw_publisher_t[m[K
+[4.173s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:[m[K In constructor ‘[01m[KDronePublisher::DronePublisher()[m[K’:
+[4.173s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[4.173s]    20 |       [01;31m[Kpublisher[m[K = this->create_publisher<std_msgs::msg::int32>("topic", 10);
+[4.174s]       |       [01;31m[K^~~~~~~~~[m[K
+[4.174s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:20:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KInt32[m[K’?
+[4.174s]    20 |       publisher = this->create_publisher<std_msgs::msg::[01;31m[Kint32[m[K>("topic", 10);
+[4.174s]       |                                                         [01;31m[K^~~~~[m[K
+[4.174s]       |                                                         [32m[KInt32[m[K
+[4.174s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:20:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDronePublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+[4.174s]    20 |     publisher = [01;31m[Kthis->create_publisher<std_msgs::msg::int32>("topic", 10)[m[K;
+[4.174s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[4.174s] 
+[4.174s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.174s]                  from [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:6[m[K:
+[4.174s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[4.174s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[4.175s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.175s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.175s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:20:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.175s]    20 |     publisher = [01;31m[Kthis->create_publisher<std_msgs::msg::int32>("topic", 10)[m[K;
+[4.175s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[4.175s] 
+[4.193s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid DronePublisher::timer_callback()[m[K’:
+[4.194s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:28:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KInt32[m[K’?
+[4.194s]    28 |       auto message = std_msgs::msg::[01;31m[Kint32[m[K();
+[4.194s]       |                                     [01;31m[K^~~~~[m[K
+[4.194s]       |                                     [32m[KInt32[m[K
+[4.203s] [01m[K/home/adri/magang2_ws/vtol/src/publisher.cpp:31:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[4.204s]    31 |       [01;31m[Kpublisher_[m[K->publish(message);
+[4.204s]       |       [01;31m[K^~~~~~~~~~[m[K
+[4.204s]       |       [32m[Krmw_publisher_t[m[K
+[5.182s] gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher.cpp.o] Error 1
+[5.183s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher_node.dir/all] Error 2
+[5.183s] gmake: *** [Makefile:146: all] Error 2
+[5.187s] Invoked command in '/home/adri/magang2_ws/vtol/build/vtol' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/vtol/build/vtol -- -j4 -l4

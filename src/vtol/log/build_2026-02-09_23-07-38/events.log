@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.001005] (vtol) JobQueued: {'identifier': 'vtol', 'dependencies': OrderedDict()}
+[0.002689] (vtol) JobStarted: {'identifier': 'vtol'}
+[0.042210] (vtol) JobProgress: {'identifier': 'vtol', 'progress': 'cmake'}
+[0.043806] (vtol) Command: {'cmd': ['/usr/bin/cmake', '/home/adri/magang2_ws/vtol', '-DCMAKE_INSTALL_PREFIX=/home/adri/magang2_ws/vtol/install/vtol'], 'cwd': '/home/adri/magang2_ws/vtol/build/vtol', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adri'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adri'), ('OLDPWD', '/home/adri/magang2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2988'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'adri'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/adri-VirtualBox:@/tmp/.ICE-unix/2955,unix/adri-VirtualBox:/tmp/.ICE-unix/2955'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/de9930a7_09b4_43a7_9678_7f69326123fa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OL0CK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adri/magang2_ws/vtol/build/vtol'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100048] (-) TimerEvent: {}
+[0.207730] (-) TimerEvent: {}
+[0.224745] (vtol) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.308294] (-) TimerEvent: {}
+[0.364029] (vtol) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.376707] (vtol) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.410221] (-) TimerEvent: {}
+[0.513101] (-) TimerEvent: {}
+[0.571614] (vtol) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.583012] (vtol) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.583217] (vtol) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.583274] (vtol) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.587311] (vtol) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.614872] (-) TimerEvent: {}
+[0.715647] (-) TimerEvent: {}
+[0.772246] (vtol) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.788952] (vtol) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.789171] (vtol) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.790826] (vtol) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.803872] (vtol) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.816277] (-) TimerEvent: {}
+[0.917020] (-) TimerEvent: {}
+[1.017817] (-) TimerEvent: {}
+[1.119184] (-) TimerEvent: {}
+[1.168179] (vtol) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.221338] (-) TimerEvent: {}
+[1.322402] (-) TimerEvent: {}
+[1.423884] (-) TimerEvent: {}
+[1.503131] (vtol) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.524684] (-) TimerEvent: {}
+[1.626668] (-) TimerEvent: {}
+[1.714699] (vtol) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.727592] (-) TimerEvent: {}
+[1.729100] (vtol) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.773438] (vtol) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.825876] (vtol) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.827853] (-) TimerEvent: {}
+[1.883573] (vtol) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.928217] (-) TimerEvent: {}
+[2.030987] (-) TimerEvent: {}
+[2.035761] (vtol) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.046187] (vtol) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.131854] (-) TimerEvent: {}
+[2.235097] (-) TimerEvent: {}
+[2.311602] (vtol) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.335808] (-) TimerEvent: {}
+[2.357489] (vtol) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.418227] (vtol) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.437118] (-) TimerEvent: {}
+[2.460687] (vtol) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.538664] (-) TimerEvent: {}
+[2.657215] (-) TimerEvent: {}
+[2.669104] (vtol) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.670427] (vtol) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.757715] (-) TimerEvent: {}
+[2.858747] (-) TimerEvent: {}
+[2.871903] (vtol) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.872253] (vtol) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.959353] (-) TimerEvent: {}
+[3.060397] (-) TimerEvent: {}
+[3.095808] (vtol) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.223138] (-) TimerEvent: {}
+[3.313845] (vtol) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.314057] (vtol) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.314116] (vtol) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.318348] (vtol) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.324881] (-) TimerEvent: {}
+[3.326134] (vtol) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.327230] (vtol) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.331797] (vtol) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.340214] (vtol) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.371246] (vtol) StdoutLine: {'line': b'-- Generating done\n'}
+[3.371959] (vtol) StdoutLine: {'line': b'-- Build files have been written to: /home/adri/magang2_ws/vtol/build/vtol\n'}
+[3.391747] (vtol) CommandEnded: {'returncode': 0}
+[3.393580] (vtol) JobProgress: {'identifier': 'vtol', 'progress': 'build'}
+[3.393634] (vtol) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adri/magang2_ws/vtol/build/vtol', '--', '-j4', '-l4'], 'cwd': '/home/adri/magang2_ws/vtol/build/vtol', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adri'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adri'), ('OLDPWD', '/home/adri/magang2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2988'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'adri'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/adri-VirtualBox:@/tmp/.ICE-unix/2955,unix/adri-VirtualBox:/tmp/.ICE-unix/2955'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/de9930a7_09b4_43a7_9678_7f69326123fa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OL0CK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adri/magang2_ws/vtol/build/vtol'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.428450] (-) TimerEvent: {}
+[3.532117] (vtol) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o\x1b[0m\n'}
+[3.532448] (-) TimerEvent: {}
+[3.633428] (-) TimerEvent: {}
+[3.735150] (-) TimerEvent: {}
+[3.837039] (-) TimerEvent: {}
+[3.938963] (-) TimerEvent: {}
+[4.039546] (-) TimerEvent: {}
+[4.140223] (-) TimerEvent: {}
+[4.241631] (-) TimerEvent: {}
+[4.342515] (-) TimerEvent: {}
+[4.443690] (-) TimerEvent: {}
+[4.544090] (-) TimerEvent: {}
+[4.646873] (-) TimerEvent: {}
+[4.750717] (-) TimerEvent: {}
+[4.853756] (-) TimerEvent: {}
+[4.955217] (-) TimerEvent: {}
+[5.058210] (-) TimerEvent: {}
+[5.161862] (-) TimerEvent: {}
+[5.262607] (-) TimerEvent: {}
+[5.363683] (-) TimerEvent: {}
+[5.465712] (-) TimerEvent: {}
+[5.566395] (-) TimerEvent: {}
+[5.667976] (-) TimerEvent: {}
+[5.771090] (-) TimerEvent: {}
+[5.872644] (-) TimerEvent: {}
+[5.975721] (-) TimerEvent: {}
+[6.079193] (-) TimerEvent: {}
+[6.181914] (-) TimerEvent: {}
+[6.283165] (-) TimerEvent: {}
+[6.385596] (-) TimerEvent: {}
+[6.486142] (-) TimerEvent: {}
+[6.586641] (-) TimerEvent: {}
+[6.687917] (-) TimerEvent: {}
+[6.789082] (-) TimerEvent: {}
+[6.892754] (-) TimerEvent: {}
+[6.995761] (-) TimerEvent: {}
+[7.096778] (-) TimerEvent: {}
+[7.200897] (-) TimerEvent: {}
+[7.302670] (-) TimerEvent: {}
+[7.405751] (-) TimerEvent: {}
+[7.506749] (-) TimerEvent: {}
+[7.611108] (-) TimerEvent: {}
+[7.713090] (-) TimerEvent: {}
+[7.814591] (-) TimerEvent: {}
+[7.916632] (-) TimerEvent: {}
+[8.017782] (-) TimerEvent: {}
+[8.123827] (-) TimerEvent: {}
+[8.224703] (-) TimerEvent: {}
+[8.327951] (-) TimerEvent: {}
+[8.429747] (-) TimerEvent: {}
+[8.531132] (-) TimerEvent: {}
+[8.631671] (-) TimerEvent: {}
+[8.733761] (-) TimerEvent: {}
+[8.836371] (-) TimerEvent: {}
+[8.937664] (-) TimerEvent: {}
+[9.039909] (-) TimerEvent: {}
+[9.140668] (-) TimerEvent: {}
+[9.241889] (-) TimerEvent: {}
+[9.344086] (-) TimerEvent: {}
+[9.447726] (-) TimerEvent: {}
+[9.548878] (-) TimerEvent: {}
+[9.651292] (-) TimerEvent: {}
+[9.754922] (-) TimerEvent: {}
+[9.857720] (-) TimerEvent: {}
+[9.959228] (-) TimerEvent: {}
+[10.063099] (-) TimerEvent: {}
+[10.164467] (-) TimerEvent: {}
+[10.268113] (-) TimerEvent: {}
+[10.343695] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:34:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint32\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.343968] (vtol) StderrLine: {'line': b'   34 |     rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[Kint32\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[10.344028] (vtol) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.344074] (vtol) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[KInt32\x1b[m\x1b[K\n'}
+[10.344116] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:34:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.344158] (vtol) StderrLine: {'line': b'   34 |     rclcpp::Publisher<std_msgs::msg::int32\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[10.344200] (vtol) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.344263] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:34:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[10.344312] (vtol) StderrLine: {'line': b'   34 |     rclcpp::Publisher<std_msgs::msg::int32>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[10.344377] (vtol) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.344442] (vtol) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[10.347911] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:34:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.348092] (vtol) StderrLine: {'line': b'   34 |     rclcpp::Publisher<std_msgs::msg::int32>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[10.348148] (vtol) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.348194] (vtol) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[10.357058] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDronePublisher::DronePublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.357240] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:20:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.357309] (vtol) StderrLine: {'line': b'   20 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::int32>("topic", 10);\n'}
+[10.357354] (vtol) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.357403] (vtol) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[10.357464] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:20:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint32\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.357902] (vtol) StderrLine: {'line': b'   20 |       publisher_ = this->create_publisher<std_msgs::msg::\x1b[01;31m\x1b[Kint32\x1b[m\x1b[K>("topic", 10);\n'}
+[10.358046] (vtol) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.358128] (vtol) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[KInt32\x1b[m\x1b[K\n'}
+[10.358172] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:20:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDronePublisher::create_publisher<<expression error> >(const char [6], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.358214] (vtol) StderrLine: {'line': b'   20 |    publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::int32>("topic", 10)\x1b[m\x1b[K;\n'}
+[10.358254] (vtol) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.358293] (vtol) StderrLine: {'line': b'\n'}
+[10.359277] (vtol) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[10.359664] (vtol) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[10.359732] (vtol) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.359778] (vtol) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:6\x1b[m\x1b[K:\n'}
+[10.359819] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.359866] (vtol) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[10.359906] (vtol) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.359942] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.359982] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:20:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.360022] (vtol) StderrLine: {'line': b'   20 |    publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::int32>("topic", 10)\x1b[m\x1b[K;\n'}
+[10.360073] (vtol) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.360110] (vtol) StderrLine: {'line': b'\n'}
+[10.370685] (-) TimerEvent: {}
+[10.381315] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DronePublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.381698] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:28:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint32\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KInt32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.381809] (vtol) StderrLine: {'line': b'   28 |       auto message = std_msgs::msg::\x1b[01;31m\x1b[Kint32\x1b[m\x1b[K();\n'}
+[10.381857] (vtol) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.381899] (vtol) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[KInt32\x1b[m\x1b[K\n'}
+[10.390400] (vtol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adri/magang2_ws/vtol/src/publisher.cpp:31:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.390773] (vtol) StderrLine: {'line': b'   31 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[10.390833] (vtol) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.390877] (vtol) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[10.472279] (-) TimerEvent: {}
+[10.576727] (-) TimerEvent: {}
+[10.677862] (-) TimerEvent: {}
+[10.779763] (-) TimerEvent: {}
+[10.880393] (-) TimerEvent: {}
+[10.981913] (-) TimerEvent: {}
+[11.082992] (-) TimerEvent: {}
+[11.187815] (-) TimerEvent: {}
+[11.289004] (-) TimerEvent: {}
+[11.373980] (vtol) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher.cpp.o] Error 1\n'}
+[11.374692] (vtol) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher_node.dir/all] Error 2\n'}
+[11.374821] (vtol) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.382085] (vtol) CommandEnded: {'returncode': 2}
+[11.389349] (-) TimerEvent: {}
+[11.424672] (vtol) JobEnded: {'identifier': 'vtol', 'rc': 2}
+[11.436443] (-) EventReactorShutdown: {}

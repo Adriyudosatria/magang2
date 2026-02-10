@@ -1,0 +1,4 @@
+Invoking command in '/home/adri/magang2_ws/vtol/build/vtol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adri/magang2_ws/vtol -DCMAKE_INSTALL_PREFIX=/home/adri/magang2_ws/vtol/install/vtol
+Invoked command in '/home/adri/magang2_ws/vtol/build/vtol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/adri/magang2_ws/vtol -DCMAKE_INSTALL_PREFIX=/home/adri/magang2_ws/vtol/install/vtol
+Invoking command in '/home/adri/magang2_ws/vtol/build/vtol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/vtol/build/vtol -- -j4 -l4
+Invoked command in '/home/adri/magang2_ws/vtol/build/vtol' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/vtol/build/vtol -- -j4 -l4

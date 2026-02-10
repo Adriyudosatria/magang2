@@ -1,0 +1,10 @@
+/home/adri/magang2_ws/vtol/build/vtol/CMakeFiles/uninstall.dir
+/home/adri/magang2_ws/vtol/build/vtol/CMakeFiles/vtol_uninstall.dir
+/home/adri/magang2_ws/vtol/build/vtol/CMakeFiles/publisher_node.dir
+/home/adri/magang2_ws/vtol/build/vtol/CMakeFiles/test.dir
+/home/adri/magang2_ws/vtol/build/vtol/CMakeFiles/edit_cache.dir
+/home/adri/magang2_ws/vtol/build/vtol/CMakeFiles/rebuild_cache.dir
+/home/adri/magang2_ws/vtol/build/vtol/CMakeFiles/list_install_components.dir
+/home/adri/magang2_ws/vtol/build/vtol/CMakeFiles/install.dir
+/home/adri/magang2_ws/vtol/build/vtol/CMakeFiles/install/local.dir
+/home/adri/magang2_ws/vtol/build/vtol/CMakeFiles/install/strip.dir

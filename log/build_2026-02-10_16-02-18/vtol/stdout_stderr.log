@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target suscriber_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/adri/magang2_ws/src/vtol/src/suscriber.cpp:3[m[K:
+[01m[K/home/adri/magang2_ws/src/vtol/src/suscriber.cpp:[m[K In member function ‘[01m[Kvoid DroneSuscriber::topic_callback(const Int32&) const[m[K’:
+[01m[K/home/adri/magang2_ws/src/vtol/src/suscriber.cpp:26:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kpalindrom[m[K’ was not declared in this scope
+   26 |     RCLCPP_INFO(this->get_logger(), "%d paliodrom, event = %d", number, [01;31m[Kpalindrom[m[K);
+      |                                                                         [01;31m[K^~~~~~~~~[m[K
+[ 75%] [32m[1mLinking CXX executable publisher_node[0m
+[ 75%] Built target publisher_node
+gmake[2]: *** [CMakeFiles/suscriber_node.dir/build.make:76: CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/suscriber_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

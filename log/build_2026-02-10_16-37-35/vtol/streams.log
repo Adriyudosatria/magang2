@@ -1,0 +1,44 @@
+[0.042s] Invoking command in '/home/adri/magang2_ws/build/vtol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/build/vtol -- -j4 -l4
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target suscriber_node[0m
+[0.154s] [ 50%] Built target publisher_node
+[0.155s] [ 75%] [32mBuilding CXX object CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o[0m
+[2.229s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.234s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.235s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.235s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.235s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.235s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.235s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.235s]                  from [01m[K/home/adri/magang2_ws/src/vtol/src/suscriber.cpp:3[m[K:
+[2.235s] [01m[K/home/adri/magang2_ws/src/vtol/src/suscriber.cpp:[m[K In member function ‘[01m[Kvoid DroneSuscriber::topic_callback(const Int32&)[m[K’:
+[2.235s] [01m[K/home/adri/magang2_ws/src/vtol/src/suscriber.cpp:37:37:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[2.235s]    37 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Mendaratkan Drone"[m[K, number);
+[2.235s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.318s] [100%] [32m[1mLinking CXX executable suscriber_node[0m
+[9.821s] [100%] Built target suscriber_node
+[9.838s] Invoked command in '/home/adri/magang2_ws/build/vtol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/build/vtol -- -j4 -l4
+[9.855s] Invoking command in '/home/adri/magang2_ws/build/vtol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adri/magang2_ws/build/vtol
+[9.871s] -- Install configuration: ""
+[9.871s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/lib/vtol/publisher_node
+[9.871s] -- Installing: /home/adri/magang2_ws/install/vtol/lib/vtol/suscriber_node
+[9.876s] -- Set runtime path of "/home/adri/magang2_ws/install/vtol/lib/vtol/suscriber_node" to ""
+[9.876s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/ament_index/resource_index/package_run_dependencies/vtol
+[9.876s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/ament_index/resource_index/parent_prefix_path/vtol
+[9.876s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/ament_prefix_path.sh
+[9.876s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/ament_prefix_path.dsv
+[9.876s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/path.sh
+[9.876s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/path.dsv
+[9.876s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.bash
+[9.876s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.sh
+[9.876s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.zsh
+[9.876s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.dsv
+[9.876s] -- Installing: /home/adri/magang2_ws/install/vtol/share/vtol/package.dsv
+[9.876s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/ament_index/resource_index/packages/vtol
+[9.877s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/cmake/vtolConfig.cmake
+[9.877s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/cmake/vtolConfig-version.cmake
+[9.877s] -- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/package.xml
+[9.882s] Invoked command in '/home/adri/magang2_ws/build/vtol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adri/magang2_ws/build/vtol

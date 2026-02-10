@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.001570] (vtol) JobQueued: {'identifier': 'vtol', 'dependencies': OrderedDict()}
+[0.002366] (vtol) JobStarted: {'identifier': 'vtol'}
+[0.015509] (vtol) JobProgress: {'identifier': 'vtol', 'progress': 'cmake'}
+[0.020030] (vtol) JobProgress: {'identifier': 'vtol', 'progress': 'build'}
+[0.020319] (vtol) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adri/magang2_ws/build/vtol', '--', '-j4', '-l4'], 'cwd': '/home/adri/magang2_ws/build/vtol', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adri'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adri'), ('OLDPWD', '/home/adri'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2988'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'adri'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/adri-VirtualBox:@/tmp/.ICE-unix/2955,unix/adri-VirtualBox:/tmp/.ICE-unix/2955'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c8b87e29_ca1c_478e_9027_494bcee5b72c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QEXOK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adri/magang2_ws/build/vtol'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.091718] (vtol) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher_node\x1b[0m\n'}
+[0.092101] (vtol) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target suscriber_node\x1b[0m\n'}
+[0.100815] (-) TimerEvent: {}
+[0.113729] (vtol) StdoutLine: {'line': b'[ 50%] Built target publisher_node\n'}
+[0.117312] (vtol) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o\x1b[0m\n'}
+[0.242868] (-) TimerEvent: {}
+[1.260995] (-) TimerEvent: {}
+[1.364394] (-) TimerEvent: {}
+[1.478663] (-) TimerEvent: {}
+[2.249489] (-) TimerEvent: {}
+[2.361434] (-) TimerEvent: {}
+[2.586466] (-) TimerEvent: {}
+[2.698246] (-) TimerEvent: {}
+[2.801420] (-) TimerEvent: {}
+[2.903676] (-) TimerEvent: {}
+[3.004563] (-) TimerEvent: {}
+[3.106303] (-) TimerEvent: {}
+[3.206714] (-) TimerEvent: {}
+[3.309590] (-) TimerEvent: {}
+[4.251532] (-) TimerEvent: {}
+[4.369942] (-) TimerEvent: {}
+[5.298714] (-) TimerEvent: {}
+[5.400678] (-) TimerEvent: {}
+[5.502011] (-) TimerEvent: {}
+[5.603278] (-) TimerEvent: {}
+[5.704020] (-) TimerEvent: {}
+[5.804618] (-) TimerEvent: {}
+[5.905223] (-) TimerEvent: {}
+[6.005875] (-) TimerEvent: {}
+[6.106613] (-) TimerEvent: {}
+[6.208768] (-) TimerEvent: {}
+[6.309656] (-) TimerEvent: {}
+[6.410524] (-) TimerEvent: {}
+[6.511304] (-) TimerEvent: {}
+[6.612456] (-) TimerEvent: {}
+[6.713271] (-) TimerEvent: {}
+[6.813822] (-) TimerEvent: {}
+[6.914289] (-) TimerEvent: {}
+[7.015074] (-) TimerEvent: {}
+[7.115957] (-) TimerEvent: {}
+[7.216434] (-) TimerEvent: {}
+[7.317327] (-) TimerEvent: {}
+[7.418293] (-) TimerEvent: {}
+[7.519360] (-) TimerEvent: {}
+[7.620293] (-) TimerEvent: {}
+[7.721382] (-) TimerEvent: {}
+[7.822566] (-) TimerEvent: {}
+[7.924305] (-) TimerEvent: {}
+[8.024916] (-) TimerEvent: {}
+[8.097808] (vtol) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable suscriber_node\x1b[0m\n'}
+[8.126308] (-) TimerEvent: {}
+[8.226893] (-) TimerEvent: {}
+[8.329552] (-) TimerEvent: {}
+[8.432920] (-) TimerEvent: {}
+[8.503968] (vtol) StdoutLine: {'line': b'[100%] Built target suscriber_node\n'}
+[8.521947] (vtol) CommandEnded: {'returncode': 0}
+[8.522355] (vtol) JobProgress: {'identifier': 'vtol', 'progress': 'install'}
+[8.533881] (vtol) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adri/magang2_ws/build/vtol'], 'cwd': '/home/adri/magang2_ws/build/vtol', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adri'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adri'), ('OLDPWD', '/home/adri'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2988'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'adri'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adri'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/adri-VirtualBox:@/tmp/.ICE-unix/2955,unix/adri-VirtualBox:/tmp/.ICE-unix/2955'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c8b87e29_ca1c_478e_9027_494bcee5b72c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QEXOK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adri/magang2_ws/build/vtol'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.535645] (-) TimerEvent: {}
+[8.545635] (vtol) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.549894] (vtol) StdoutLine: {'line': b'-- Installing: /home/adri/magang2_ws/install/vtol/lib/vtol/publisher_node\n'}
+[8.550655] (vtol) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/magang2_ws/install/vtol/lib/vtol/publisher_node" to ""\n'}
+[8.556516] (vtol) StdoutLine: {'line': b'-- Installing: /home/adri/magang2_ws/install/vtol/lib/vtol/suscriber_node\n'}
+[8.556740] (vtol) StdoutLine: {'line': b'-- Set runtime path of "/home/adri/magang2_ws/install/vtol/lib/vtol/suscriber_node" to ""\n'}
+[8.556821] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/ament_index/resource_index/package_run_dependencies/vtol\n'}
+[8.556871] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/ament_index/resource_index/parent_prefix_path/vtol\n'}
+[8.556908] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/ament_prefix_path.sh\n'}
+[8.556940] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/ament_prefix_path.dsv\n'}
+[8.556971] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/path.sh\n'}
+[8.557012] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/environment/path.dsv\n'}
+[8.557042] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.bash\n'}
+[8.557073] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.sh\n'}
+[8.557103] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.zsh\n'}
+[8.557133] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/local_setup.dsv\n'}
+[8.557164] (vtol) StdoutLine: {'line': b'-- Installing: /home/adri/magang2_ws/install/vtol/share/vtol/package.dsv\n'}
+[8.559007] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/ament_index/resource_index/packages/vtol\n'}
+[8.559450] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/cmake/vtolConfig.cmake\n'}
+[8.561237] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/cmake/vtolConfig-version.cmake\n'}
+[8.561358] (vtol) StdoutLine: {'line': b'-- Up-to-date: /home/adri/magang2_ws/install/vtol/share/vtol/package.xml\n'}
+[8.564385] (vtol) CommandEnded: {'returncode': 0}
+[8.586301] (vtol) JobEnded: {'identifier': 'vtol', 'rc': 0}
+[8.587128] (-) EventReactorShutdown: {}

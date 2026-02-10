@@ -1,0 +1,5 @@
+[ 33%] Built target publisher_node
+[ 66%] [32mBuilding CXX object CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/service_node.dir/src/service.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable service_node[0m
+[ 83%] Built target service_node

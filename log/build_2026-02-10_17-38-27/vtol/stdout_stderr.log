@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target service_node[0m
+[35m[1mConsolidate compiler generated dependencies of target suscriber_node[0m
+[ 33%] Built target publisher_node
+[ 66%] Built target service_node
+[ 83%] [32mBuilding CXX object CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o[0m
+[01m[K/home/adri/magang2_ws/src/vtol/src/suscriber.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kvtol/srv/drone_landing.hpp: No such file or directory
+    5 | #include [01;31m[K"vtol/srv/drone_landing.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/suscriber_node.dir/build.make:76: CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/suscriber_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,12 @@
+[0.026s] Invoking command in '/home/adri/magang2_ws/build/vtol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/build/vtol -- -j4 -l4
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target suscriber_node[0m
+[0.114s] [ 25%] [32mBuilding CXX object CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o[0m
+[0.115s] [ 75%] Built target publisher_node
+[3.033s] [01m[K/home/adri/magang2_ws/src/vtol/src/suscriber.cpp:[m[K In member function ‘[01m[Kvoid DroneSuscriber::topic_callback(const Int32&) const[m[K’:
+[3.033s] [01m[K/home/adri/magang2_ws/src/vtol/src/suscriber.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kevent[m[K’ was not declared in this scope
+[3.033s]    24 |     [01;31m[Kevent[m[K++;
+[3.033s]       |     [01;31m[K^~~~~[m[K
+[5.883s] gmake[2]: *** [CMakeFiles/suscriber_node.dir/build.make:76: CMakeFiles/suscriber_node.dir/src/suscriber.cpp.o] Error 1
+[5.884s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/suscriber_node.dir/all] Error 2
+[5.884s] gmake: *** [Makefile:146: all] Error 2
+[5.890s] Invoked command in '/home/adri/magang2_ws/build/vtol' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adri/magang2_ws/build/vtol -- -j4 -l4
